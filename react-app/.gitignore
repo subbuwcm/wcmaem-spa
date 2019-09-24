@@ -1,0 +1,9 @@
+/target
+/.settings
+/.classpath
+/.gitignore
+/.project
+/build
+/coverage
+/node
+/node_modules
