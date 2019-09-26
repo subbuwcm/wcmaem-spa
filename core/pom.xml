@@ -87,15 +87,15 @@
                             <!-- Note that this requires /apps/we-retail/install to exist!! -->
                             <!-- This is typically the case when ui.apps is deployed first -->
                             <!-- Otherwise, create /apps/weretail/install manually (CRXDE|Lite) -->
-                            <slingUrlSuffix>/apps/weretail/install/</slingUrlSuffix>
-                            <failOnError>true</failOnError>
+                            <slingUrl>${quickstart.url}/apps/spaexamples/install/</slingUrl>
+                            <usePut>true</usePut>
                         </configuration>
                     </plugin>
                 </plugins>
             </build>
         </profile>
 
-        <profile>
+        <!-- <profile>
             <id>autoInstallPackage</id>
             <activation>
                 <activeByDefault>false</activeByDefault>
@@ -114,14 +114,14 @@
                             </execution>
                         </executions>
                         <configuration>
-                            <slingUrl>${quickstart.url}/system/console</slingUrl>
+                            <slingUrlSuffix>/apps/spaexamples/install/</slingUrlSuffix>
                             <failOnError>true</failOnError>
-                        </configuration>
+                        </configuration> 
                     </plugin>
                 </plugins>
             </build>
-        </profile>
-        <profile>
+        </profile> -->
+        <!-- <profile>
             <id>autoInstallPackagePublish</id>
             <activation>
                 <activeByDefault>false</activeByDefault>
@@ -140,13 +140,13 @@
                             </execution>
                         </executions>
                         <configuration>
-                            <slingUrl>${quickstart.publish.url}/system/console</slingUrl>
+                            <slingUrlSuffix>/apps/spaexamples/install/</slingUrlSuffix>
                             <failOnError>true</failOnError>
                         </configuration>
                     </plugin>
                 </plugins>
             </build>
-        </profile>
+        </profile> -->
         <profile>
             <!-- This is the release profile. -->
             <id>release</id>

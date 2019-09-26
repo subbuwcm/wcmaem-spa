@@ -61,6 +61,7 @@
                         <embedded>
                             <groupId>subbu.blogspot</groupId>
                             <artifactId>wcmaem-spa.core</artifactId>
+                            <target>/apps/spaexamples/install</target>
                             <filter>true</filter>
                         </embedded>
                     </embeddeds>
@@ -75,6 +76,11 @@
                             <artifactId>wcmaem-spa.ui.content</artifactId>
                             <filter>true</filter>
                         </subPackage>
+                        <subPackage>
+                             <groupId>com.adobe.cq</groupId>
+                             <artifactId>core.wcm.components.all</artifactId>
+                             <filter>true</filter>
+                         </subPackage>
                     </subPackages>
                 </configuration>
             </plugin>
@@ -164,6 +170,12 @@
             <version>1.0.0-SNAPSHOT</version>
             <type>zip</type>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+                <groupId>com.adobe.cq</groupId>
+                <artifactId>core.wcm.components.all</artifactId>
+                <type>zip</type>
+                <version>2.2.2</version>
         </dependency>
     </dependencies>
 </project>
