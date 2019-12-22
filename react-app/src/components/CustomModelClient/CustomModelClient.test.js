@@ -24,7 +24,7 @@ import sinon from "sinon";
 
 describe("CustomModelClient ->", () => {
 
-    const API_HOST = 'http://localhost:1234';
+    const API_HOST = 'http://localhost:6504';
     const PATH = '/path/to/test';
     const REMOTE_DATA = {test: true};
     const STATUS_TEXT = 'Remote server error';

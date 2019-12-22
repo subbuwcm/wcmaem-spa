@@ -9,7 +9,7 @@
     "test:debug": "react-scripts --inspect-brk test --coverage --no-cache --runInBand",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:4502",
+  "proxy": "http://localhost:6504",
   "eslintConfig": {
     "extends": "react-app"
   },

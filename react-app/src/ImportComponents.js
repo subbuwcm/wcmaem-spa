@@ -15,4 +15,8 @@
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 require('./components/Text');
 require('./components/Page');
-
+require('./components/SPAEmptyPage');
+require('./components/Navigation');
+require('./components/image-tile');
+require('./components/blogs-list');
+require('./components/SPABlogPage');
