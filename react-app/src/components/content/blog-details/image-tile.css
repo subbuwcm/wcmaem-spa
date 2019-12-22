@@ -1,0 +1,19 @@
+.image-tail-container{	
+	background-color: dimgrey;
+    width: 100%;
+    margin: 20px;
+}
+
+.image-tail-container .tile-title {
+    font-size: 40px;
+    display: block;
+    margin: 20px;
+    margin-bottom: 28px;
+}
+.image-tail-container .tile-image {
+    width: 100%;
+}
+
+.image-tail-container .tile-image img {
+    width: 100%;
+}
